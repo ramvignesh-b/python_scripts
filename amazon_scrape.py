@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup as bs
 from decimal import Decimal
 import smtplib
+import time
 
 URL= 'https://www.amazon.in/Lenovo-Legion-Graphics-Windows-81SY00CKIN/dp/B07W6H9YM9/ref=sr_1_3?keywords=y540&qid=1578141911&sr=8-3'
 
@@ -36,5 +37,6 @@ def send_mail():
     print('Email Sent!')
     server.quit()
 
-
-check_price()
+while True:
+    check_price()
+    time.sleep(3600*6) #check every 6 hours
