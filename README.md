@@ -1,2 +1,2 @@
 # python_scripts
-A repository of the fun python scripts I create
+A repository of simplistic yet useful python scripts, I create.
