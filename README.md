@@ -12,8 +12,3 @@ A repository of simplistic yet useful python scripts, I create.
 
 3. ### file_transfer.py
     A simple script that automatically sorts the files present in a drive according to their type.
-
-_Update Log#4 (26/03/2020):_
-* _Moved 2 old scripts to the repository._
-* _Purged previous Logs._
-
